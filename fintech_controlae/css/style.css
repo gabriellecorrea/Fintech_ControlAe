@@ -1,0 +1,58 @@
+main{
+    margin: 2% 7%;
+}
+
+.mes{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    justify-content: center;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.box-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+.total{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: #fff7b1;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.btn{
+    width: 20%;
+    height: 100%;
+}
+
+h3{
+    font-size: 1.05rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+@media(max-width: 700px) {
+    .total {
+        min-width: 40%;
+    }
+
+    .btn{
+    min-width: 40%;
+    }
+}
